@@ -424,7 +424,7 @@ Built with ❤️ as a complete AI Education Platform
 - ✅ Pure mock intelligence with contextual responses
 - ✅ Full-stack implementation (React + Node.js + PostgreSQL)
 - ✅ Production-ready code
-- ✅ Zero API costs
+
 ---
 
 **Happy Learning! 🚀**
