@@ -63,21 +63,11 @@ This is a complete full-stack education platform with intelligent mock AI respon
 - **ES Modules** - Modern JavaScript
 
 ### AI/Intelligence
-- **🎯 Pure Mock AI - NO API KEYS REQUIRED**
-- **No OpenAI, No Google Gemini, No External APIs**
 - Contextual pattern-based response generation
 - Keyword detection and analysis
 - Subject-specific knowledge modules
 - Real-world analogy generation
 - Practice question generation
-
-### Why Mock AI?
-- ✅ **Zero API costs** - completely free to run
-- ✅ **No rate limits** - unlimited requests
-- ✅ **No API keys needed** - works out of the box
-- ✅ **Privacy-first** - all data stays in your database
-- ✅ **Fast responses** - no external API latency
-- ✅ **Educational focus** - tailored for learning scenarios
 
 ### Deployment
 - Vercel (Frontend)
@@ -92,7 +82,6 @@ This is a complete full-stack education platform with intelligent mock AI respon
 - **Node.js 18+** installed
 - **Supabase account** (free tier works perfectly)
 - **Git** installed
-- **NO API KEYS NEEDED** ✨
 
 ### Step 1: Clone Repository
 ```bash
@@ -167,20 +156,6 @@ Open browser: **http://localhost:5173**
 ✅ Register a new account and start using all features!
 
 ---
-
-## 💡 No API Keys? How Does AI Work?
-
-This project uses **intelligent mock AI** with pattern recognition:
-
-1. **Doubt Solver**: Analyzes question keywords (quadratic, force, RAM, photosynthesis) and provides subject-specific detailed answers
-2. **Study Plans**: Reads your subjects, weak/strong topics, exam date and generates personalized schedules
-3. **Assignment Evaluation**: Analyzes word count, structure, and provides contextual feedback
-4. **Performance Prediction**: Calculates trends from your test history
-
-**Real AI behavior without API costs!**
-```bash
-npm run dev
-```
 
 - Frontend: http://localhost:5173
 - Backend: http://localhost:5000
@@ -287,17 +262,6 @@ app.use(cors({
 }));
 ```
 
-Then commit and push:
-```bash
-git add .
-git commit -m "fix: update CORS for production"
-git push
-```
-
-Render will auto-redeploy with the updated CORS settings.
-
----
-
 ### 💰 Cost Breakdown
 
 - **Vercel**: Free tier (sufficient for this project)
@@ -307,27 +271,6 @@ Render will auto-redeploy with the updated CORS settings.
 **Total Cost**: **$0/month** 🎉
 
 **Note**: Render free tier sleeps after 15 minutes of inactivity. First request may take 30-60 seconds to wake up. Upgrade to $7/month for always-on service.
-
----
-
-### 🔄 Updating Your Deployment
-
-After making code changes:
-
-```bash
-# Commit changes
-git add .
-git commit -m "feat: your update message"
-git push
-
-# Both Vercel and Render auto-deploy on push! ✨
-```
-
-No manual deployment needed - just push to GitHub!
-
----
-
-**No API keys needed for deployment!** ✨
 
 ---
 
@@ -386,32 +329,6 @@ Submit any text assignment and get grammar corrections, feedback, and score
 ---
 
 ## 📁 Project Structure
-
-```
-ai-education-platform/
-├── client/                    # React frontend
-│   ├── src/
-│   │   ├── components/       # AppLayout, etc.
-│   │   ├── pages/           # Dashboard, LearningPath, DoubtSolver, etc.
-│   │   ├── utils/           # api.js (API client)
-│   │   └── App.jsx          # Main app with routing
-│   ├── .env.example
-│   └── package.json
-├── server/                   # Node.js backend
-│   ├── src/
-│   │   ├── config/          # database.js, schema.sql
-│   │   ├── controllers/     # Request handlers
-│   │   ├── middleware/      # auth.js, errorHandler.js
-│   │   ├── routes/          # API routes
-│   │   ├── services/        # aiService.js (Mock AI ✨)
-│   │   └── index.js         # Server entry point
-│   ├── .env.example
-│   └── package.json
-├── .gitignore
-├── README.md
-├── DEPLOYMENT.md
-└── git-commit.ps1
-```
 
 ---
 
