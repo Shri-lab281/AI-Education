@@ -26,13 +26,7 @@
 - Structure and rubric-based evaluation
 - Improvement suggestions and strengths identification
 
-### 4. **AI Exam Preparation Assistant**
-- Smart revision plans aligned with exam dates
-- Weekly milestone tracking
-- Topic-wise study schedules
-- Daily routine suggestions
-
-### 5. **Student Performance Tracking**
+### 4. **Student Performance Tracking**
 - Real-time dashboard with live stats
 - Study hours, doubts solved, assignments completed
 - Average score calculation
